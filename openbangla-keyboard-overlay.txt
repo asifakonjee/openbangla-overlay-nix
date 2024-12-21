@@ -20,7 +20,7 @@ in {
   nixpkgs.overlays = [ openbangla-keyboard-overlay ];
   i18n.inputMethod = {
      enabled = "fcitx5";
-     fcitx5.addons = with pkgs; [ OpenBangla-Keyboard ];
+     fcitx5.addons = with pkgs; [ openbangla-keyboard ];
     };
 }
   
