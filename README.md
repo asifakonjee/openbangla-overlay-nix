@@ -9,6 +9,7 @@ This repo contains OpenBangla Keyboard Overlays which will install the develop b
 nixpkgs.overlays = [
     (import /etc/nixos/openbangla-fcitx5-overlay.nix)
   ];
+
 i18n.inputMethod = {
     enabled = "fcitx5";
     fcitx5.addons = with pkgs; [
